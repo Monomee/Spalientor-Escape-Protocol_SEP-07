@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4cb2a63b1db7f824584ee0df6c9b347b, type: 3}
+  m_Name: Minigun
+  m_EditorClassIdentifier: 
+  typeOfGun: 2
+  damage: 15
+  fireRate: 30
+  range: 80
+  magazineSize: 200
+  reloadTime: 5
+  recoil: 0.08
+  isAutomatic: 1
+  spreadOffset: 0.1
+  bulletSpeed: 15
+  hitLayer:
+    serializedVersion: 2
+    m_Bits: 64
+  shotSFX: {fileID: 0}
+  reloadSFX: {fileID: 0}
